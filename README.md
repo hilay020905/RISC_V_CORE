@@ -15,7 +15,4 @@ This repository contains Verilog implementations of:
 
 Use any Verilog simulator like Iverilog, ModelSim, etc and GTKWave based waveform viewer
 
-```bash
-cd SingleCycle
-iverilog -o cpu_test *.v
-./cpu_test
+
