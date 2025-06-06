@@ -1,0 +1,134 @@
+[*]
+[*] GTKWave Analyzer v3.3.100 (w)1999-2019 BSI
+[*] Tue May 27 07:03:03 2025
+[*]
+[dumpfile] "C:\Users\hilay\Desktop\RISC_V_PIPELINE\dump.vcd"
+[dumpfile_mtime] "Tue May 27 06:46:14 2025"
+[dumpfile_size] 19562
+[savefile] "C:\Users\hilay\Desktop\RISC_V_PIPELINE\Pipeline_top.gtkw"
+[timestart] 0
+[size] 1920 1009
+[pos] -1 -1
+*-7.000000 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] tb.
+[treeopen] tb.dut.
+[sst_width] 197
+[signals_width] 198
+[sst_expanded] 1
+[sst_vpaned_height] 297
+@c00200
+-Global variables
+@28
+tb.clk
+tb.rst
+@1401200
+-Global variables
+@28
+tb.dut.ForwardAE[1:0]
+tb.dut.ForwardBE[1:0]
+@c00200
+-Fetch_cycle
+@28
+tb.dut.PCSrcE
+@22
+tb.dut.PCTargetE[31:0]
+tb.dut.PCD[31:0]
+tb.dut.InstrD[31:0]
+tb.dut.PCPlus4D[31:0]
+@1401200
+-Fetch_cycle
+@c00200
+-Decode cycle
+@22
+tb.dut.PCE[31:0]
+@c00022
+tb.dut.PCPlus4E[31:0]
+@28
+(0)tb.dut.PCPlus4E[31:0]
+(1)tb.dut.PCPlus4E[31:0]
+(2)tb.dut.PCPlus4E[31:0]
+(3)tb.dut.PCPlus4E[31:0]
+(4)tb.dut.PCPlus4E[31:0]
+(5)tb.dut.PCPlus4E[31:0]
+(6)tb.dut.PCPlus4E[31:0]
+(7)tb.dut.PCPlus4E[31:0]
+(8)tb.dut.PCPlus4E[31:0]
+(9)tb.dut.PCPlus4E[31:0]
+(10)tb.dut.PCPlus4E[31:0]
+(11)tb.dut.PCPlus4E[31:0]
+(12)tb.dut.PCPlus4E[31:0]
+(13)tb.dut.PCPlus4E[31:0]
+(14)tb.dut.PCPlus4E[31:0]
+(15)tb.dut.PCPlus4E[31:0]
+(16)tb.dut.PCPlus4E[31:0]
+(17)tb.dut.PCPlus4E[31:0]
+(18)tb.dut.PCPlus4E[31:0]
+(19)tb.dut.PCPlus4E[31:0]
+(20)tb.dut.PCPlus4E[31:0]
+(21)tb.dut.PCPlus4E[31:0]
+(22)tb.dut.PCPlus4E[31:0]
+(23)tb.dut.PCPlus4E[31:0]
+(24)tb.dut.PCPlus4E[31:0]
+(25)tb.dut.PCPlus4E[31:0]
+(26)tb.dut.PCPlus4E[31:0]
+(27)tb.dut.PCPlus4E[31:0]
+(28)tb.dut.PCPlus4E[31:0]
+(29)tb.dut.PCPlus4E[31:0]
+(30)tb.dut.PCPlus4E[31:0]
+(31)tb.dut.PCPlus4E[31:0]
+@1401200
+-group_end
+@22
+tb.dut.RD_E[4:0]
+@28
+tb.dut.ALUControlE[2:0]
+tb.dut.ALUSrcE
+tb.dut.BranchE
+tb.dut.MemWriteE
+tb.dut.RegWriteE
+tb.dut.ResultSrcE
+@22
+tb.dut.RD1_E[31:0]
+tb.dut.RD2_E[31:0]
+tb.dut.Imm_Ext_E[31:0]
+@1401200
+-Decode cycle
+@c00200
+-execute cycle
+@22
+tb.dut.PCPlus4M[31:0]
+tb.dut.RD_M[4:0]
+@28
+tb.dut.MemWriteM
+tb.dut.RegWriteM
+tb.dut.ResultSrcM
+@22
+tb.dut.WriteDataM[31:0]
+tb.dut.ALU_ResultM[31:0]
+@1401200
+-execute cycle
+@c00201
+-memory cycle
+@22
+tb.dut.PCPlus4W[31:0]
+@28
+tb.dut.ResultSrcW
+@22
+tb.dut.ALU_ResultW[31:0]
+tb.dut.ReadDataW[31:0]
+@1401201
+-memory cycle
+@22
+tb.dut.RS1_E[4:0]
+tb.dut.RS2_E[4:0]
+@c00200
+-register writeback
+@28
+tb.dut.RegWriteW
+@22
+tb.dut.RDW[4:0]
+tb.dut.ResultW[31:0]
+@1401200
+-register writeback
+[pattern_trace] 1
+[pattern_trace] 0
