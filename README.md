@@ -7,7 +7,7 @@ This repository contains two RISC-V CPU implementations based on the **RV32I** i
 
 ---
 
-![Pipeline Diagram](FIG01.png)
+![Pipeline Diagram](RISC_V_SINGLE_CYCLE_CORE/FIG01.png)
 
 ## 📂 Project Structure
 
