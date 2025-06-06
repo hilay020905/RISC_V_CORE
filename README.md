@@ -40,7 +40,6 @@ This repository contains two RISC-V CPU implementations based on the **RV32I** i
 ### ✅ RV32I Instruction Support
 - 🧮 Arithmetic & Logical Ops
 - 🗄️ Load/Store
-- 🔀 Branching
 
 ### 🧠 Single-Cycle Core
 - 1 instruction = 1 clock cycle
@@ -49,7 +48,6 @@ This repository contains two RISC-V CPU implementations based on the **RV32I** i
 ### ⚙️ Pipelined Core
 - 5 stages: `IF → ID → EX → MEM → WB`
 - 🔁 Forwarding Logic (EX/MEM)
-- 
 ---
 
 ## 📜 Running the Project
