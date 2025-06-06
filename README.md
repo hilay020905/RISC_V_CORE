@@ -5,7 +5,7 @@
 This project implements two versions of a RISC-V processor based on the **RV32I** (32-bit Integer Base Instruction Set):
 
 1. **Single-Cycle Core** – A basic implementation that executes one instruction per clock cycle.
-2. **Pipelined Core with Hazard Mitigation** – A 5-stage pipelined processor with **data forwarding** and **hazard detection** mechanisms.
+2. **Pipelined Core with Hazard Mitigation** – A 5-stage pipelined processor with **data forwarding**.
 
 The processor reads RISC-V machine code from a `.memhex` file using `$readmemh`, enabling simulation of real instruction sequences.
 
@@ -13,28 +13,29 @@ The processor reads RISC-V machine code from a `.memhex` file using `$readmemh`,
 
 ## Directory Structure
 
-├── single_core/
-│ ├── datapath.v
-│ ├── control_unit.v
-│ ├── riscv_single_top.v
-│ └── testbench_single.v
+```bash
+├── RISC_V_SINGLE_CYCLE_CORE/
+│   ├── datapath.v
+│   ├── control_unit.v
+│   ├── riscv_single_top.v
+│   └── testbench_single.v
 │
-├── pipeline_core/
-│ ├── IF_stage.v
-│ ├── ID_stage.v
-│ ├── EX_stage.v
-│ ├── MEM_stage.v
-│ ├── WB_stage.v
-│ ├── forwarding_unit.v
-│ ├── hazard_detection.v
-│ ├── riscv_pipeline_top.v
-│ └── testbench_pipeline.v
+├── RISC_V_PIPELINE/
+│   ├── IF_stage.v
+│   ├── ID_stage.v
+│   ├── EX_stage.v
+│   ├── MEM_stage.v
+│   ├── WB_stage.v
+│   ├── forwarding_unit.v
+│   ├── hazard_detection.v
+│   ├── riscv_pipeline_top.v
+│   └── testbench_pipeline.v
 │
 ├── programs/
-│ └── program.memhex # RISC-V RV32I machine code in hex format
+│   └── sample_program.mem   # RISC-V machine code (hex)
 │
 ├── docs/
-│ └── architecture_diagram.pdf
+│   └── architecture_diagram.pdf
 │
 └── README.md
 
