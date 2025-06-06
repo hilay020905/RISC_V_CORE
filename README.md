@@ -76,8 +76,11 @@ gtkwave Pipeline_top.gtkw  # 🔍 Optional GTKWave config
 
 👨‍💻 Author
 Hilay Patel
+
 🎓 [Indian institue of technology, Tirupati]
+
 📧 ee23b066@iittp.ac.in
+
 🌐 [LinkedIn Profile: www.linkedin.com/in/hilay-patel-84a052286]
 
 Thank you for exploring this project! Feel free to fork, use, or contribute. PRs are welcome! 🙌
