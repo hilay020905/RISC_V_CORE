@@ -12,7 +12,7 @@ This repository contains two RISC-V CPU implementations based on the **RV32I** i
 ## 📂 Project Structure
 
 ### 📁 `RISC_V_SINGLE_CYCLE_CORE` – 🧠 Single-Cycle CPU
-> A basic CPU where each instruction finishes in one clock cycle. Great for beginners to understand datapath and control logic.
+> A basic CPU where each instruction  finishes in one clock cycle. Great for beginners to understand datapath and control logic.
 
 🧾 **Core Files**:
 - `Single_Cycle_Top.v`: 🔝 Top module
